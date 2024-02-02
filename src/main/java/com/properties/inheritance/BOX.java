@@ -11,6 +11,10 @@ public class BOX {
         this.w = w;
         this.h = h;
     }
+
+    static void BoxStatics(){
+        System.out.println("Hey I'm in BOX class!! ");
+    }
     public BOX() {
         this.l = this.l;
         this.h = this.h;
@@ -28,7 +32,7 @@ public class BOX {
         this.w = oldbox.w;
     }
 
-    public  void information() {
+    static public  void information() {
         System.out.println("Box running!! ");
     }
 

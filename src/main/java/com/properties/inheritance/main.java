@@ -39,8 +39,16 @@ public class main {
         System.out.println(object14.l + " " + object14.h + " " + object14.w + " " + object14.weight + " " + object14.ProductPrice);
 
         // Multiple Inheritance :> Java doesn't support  Multiple Inheritance.
-        // Hierarchical Inheritance :> when parent class Inheritate many other child class.
+        // Hierarchical Inheritance :> when parent class Inheritance many other child class.
 
         //Hybrid Inheritance :> it's a combination of single and multiple Inheritance. As Java doesn't support  multiple Inheritance, this also not exists in java.
+
+        /*
+         static method can be inherited but can't be overridden, why because main class will always be called it's not dependent on object that's why it does not really matter.
+
+         overriding depends on an object and static does not depend on object hence static method can not be overridden.
+        * */
+        object1.BoxStatics();
+        object4.BoxStatics();
     }
 }

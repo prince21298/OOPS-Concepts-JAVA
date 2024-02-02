@@ -19,7 +19,7 @@ public class Number {
         System.out.println(Methods.sum(1,3));
         System.out.println(Methods.sum(1,2));
 
-        // Runtime or Dynamic polymorphism. Acchived by method overriding.
+        // Runtime or Dynamic polymorphism. Achieved by method overriding.
         /*
         Parent object = new Child();
         Here which method will be called Child
