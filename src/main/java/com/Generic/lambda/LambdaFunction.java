@@ -1,4 +1,4 @@
-package com.Generic.lamda;
+package com.Generic.lambda;
 
 import java.util.ArrayList;
 import java.util.function.Consumer;
