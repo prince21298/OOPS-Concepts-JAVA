@@ -15,8 +15,17 @@ public class Human implements Cloneable{
         this.name = name;
     }
 
-    @Override
-    public Object clone() throws CloneNotSupportedException {
+    // this is a shallow copy
+    public Object Shallowclone() throws CloneNotSupportedException {
         return super.clone();
+    }
+
+    // this is a deep copy
+    public Object DeepClone() throws CloneNotSupportedException {
+        Human copyHuman = (Human) super.clone();
+        copyHuman.arr = new int[copyHuman.arr.length];
+        System.arraycopy(this.arr,0,copyHuman.arr,0, copyHuman.arr.length);
+        return copyHuman;
+
     }
 }
